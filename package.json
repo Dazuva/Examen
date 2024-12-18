@@ -2,6 +2,7 @@
   "name": "extra",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev": "nodemon index.js",
     "start": "node index.js",
@@ -24,6 +25,7 @@
     "express": "^4.21.2",
     "install": "^0.13.0",
     "mongoose": "^8.9.1",
+    "mongoose-sequence": "^6.0.1",
     "npm": "^11.0.0",
     "swagger-jsdoc": "^6.2.8",
     "swagger-ui-express": "^5.0.1",
